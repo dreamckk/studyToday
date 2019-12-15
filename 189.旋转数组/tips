@@ -6,3 +6,11 @@
    新建一个额外的数组
    将旋转后的元素放在它应该在的地方
    (i+k)%nums.length;
+(3)反转
+   反转，反转，再反转.
+   先将整个数组反转，然后将前k-1个数反转，再将后几个数反转.
+   反转：int temp=nums[strat];
+         nums[start]=nums[end];
+         nume[end]=temp;
+         start++;
+         end--;
